@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="app.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tik Tak Toe</title>
+</head>
+<body>
+    <div class="container">
+        <div>
+            <h1>Tik-Tak-Toe</h1>
+            <table border="1">
+                <tr> 
+                    <td class="btn-sec">
+                        <input type="button" onclick="insert(this, 1)" class="btn-insert">
+                    </td> 
+                    <td>
+                        <input type="button" onclick="insert(this, 2)" class="btn-insert">
+                    </td> 
+                    <td>
+                        <input type="button" onclick="insert(this, 3)" class="btn-insert">
+                    </td> 
+                </tr>
+                <tr> 
+                    <td>
+                        <input type="button" onclick="insert(this, 4)" class="btn-insert">
+                    </td> 
+                    <td>
+                        <input type="button" onclick="insert(this, 5)" class="btn-insert">
+                    </td> 
+                    <td>
+                        <input type="button" onclick="insert(this, 6)" class="btn-insert">
+                    </td> 
+                </tr>
+                <tr> 
+                    <td>
+                        <input type="button" onclick="insert(this, 7)" class="btn-insert">
+                    </td> 
+                    <td>
+                        <input type="button" onclick="insert(this, 8)" class="btn-insert">
+                    </td> 
+                    <td>
+                        <input type="button" onclick="insert(this, 9)" class="btn-insert">
+                    </td> 
+                </tr>
+            </table>
+            <h1 class="winner"></h1>
+            <div class="div-win">
+                <button onclick="reset()" class="reset">RESET</button>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
